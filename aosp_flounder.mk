@@ -51,3 +51,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Include YAOSP telephony configuration
 include vendor/yaosp/configs/yaosp_phone.mk
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N4F26T/3687331:user/release-keys \
+    PRIVATE_BUILD_DESC="volantis-user 7.1.1 N4F26T 3687331 release-keys"
